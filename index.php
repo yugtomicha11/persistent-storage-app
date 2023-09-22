@@ -5,7 +5,7 @@
 <body>
 <?php
 echo '<p>Hello World</p>';
-$filepath= '/var/lib/www/images/world.jpeg'; 
+$filepath= '/var/lib/data/Hello.jpeg'; 
 echo '<img src="'.$filepath.'">'; 
 ?>
 </body>
