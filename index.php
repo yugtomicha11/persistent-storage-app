@@ -7,7 +7,7 @@
 echo '<p>Hello World</p>';
 $filepath= '/images/Hello.jpeg'; 
 echo '<img src="'.$filepath.'">';
-echo '<img src="/var/lib/data/Hello.jpeg">';
+echo '<img src=". /var/lib/data/Hello.jpeg">';
 ?>
 </body>
 </html>
